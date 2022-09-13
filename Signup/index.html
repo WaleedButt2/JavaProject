@@ -1,0 +1,36 @@
+<html>
+
+    <head>
+        <script language="JavaScript" type="text/javaScript">
+            function validate(){
+                if (document.register.email.value == ""){
+                    alert("Email cannot be empty!");
+                    return false;
+                }
+                if (document.register.name.value == ""){
+                    alert("Name cannot be empty!");
+                    return false;
+                }
+                if (document.register.passwd.value == ""){
+                    alert("Password cannot be empty!");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+
+<body>
+    <form name="register" method="post" action="../SignUp" onsubmit="return validate()">
+
+        Email :<input type="text" name="email"><br>
+        Name :<input type="text" name="name"><br>
+        Password :<input type="password" name="passwd"><br>
+        <input type="submit" value="Register">
+
+    </form>
+    <form method="post" action="../index.html">
+    <input type="submit" value="<--Go Back">
+    </form>
+</body>
+
+</html>

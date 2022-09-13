@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script language="JavaScript" type="text/javaScript">
+            function validate(){
+                if (document.register.email.value == ""){
+                    alert("Email cannot be empty!");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+
+<body>
+    <form name="register" method="post" action="../Block_Users" onsubmit="return validate()">
+
+        Email :<input type="text" name="email"><br>
+        <input type="submit" value="Block Users">
+    </form>
+    <form method="post" action="index.html">
+    <input type="submit" value="<--Go Back">
+    </form>
+</body>
+
+</html>

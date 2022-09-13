@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<servlet-class>SignUp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignUp</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SignIn</servlet-name>
+		<servlet-class>SignIn</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignIn</servlet-name>
+		<url-pattern>/SignIn</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowFriends</servlet-name>
+		<servlet-class>ShowFriends</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ShowFriends</servlet-name>
+		<url-pattern>/ShowFriends</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Add_Friends</servlet-name>
+		<servlet-class>Add_Friends</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Add_Friends</servlet-name>
+		<url-pattern>/Add_Friends</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Remove_Friends</servlet-name>
+		<servlet-class>Remove_Friends</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Remove_Friends</servlet-name>
+		<url-pattern>/Remove_Friends</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Search_Friends</servlet-name>
+		<servlet-class>Search_Friends</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Search_Friends</servlet-name>
+		<url-pattern>/Search_Friends</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Make_Group</servlet-name>
+		<servlet-class>Make_Group</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Make_Group</servlet-name>
+		<url-pattern>/Make_Group</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Block_Users</servlet-name>
+		<servlet-class>Block_Users</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Block_Users</servlet-name>
+		<url-pattern>/Block_Users</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>Delete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Friendless</servlet-name>
+		<servlet-class>Friendless</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Friendless</servlet-name>
+		<url-pattern>/Friendless</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Show_blocked</servlet-name>
+		<servlet-class>Show_blocked</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Show_blocked</servlet-name>
+		<url-pattern>/Show_blocked</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Unblock</servlet-name>
+		<servlet-class>Unblock</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Unblock</servlet-name>
+		<url-pattern>/Unblock</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Show_Groups</servlet-name>
+		<servlet-class>Show_Groups</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Show_Groups</servlet-name>
+		<url-pattern>/Show_Groups</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Delete_Group</servlet-name>
+		<servlet-class>Delete_Group</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Delete_Group</servlet-name>
+		<url-pattern>/Delete_Group</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Menue</servlet-name>
+		<servlet-class>Menue</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Menue</servlet-name>
+		<url-pattern>/Menue</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Send_Message</servlet-name>
+		<servlet-class>Send_Message</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Send_Message</servlet-name>
+		<url-pattern>/Send_Message</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Receive_msg</servlet-name>
+		<servlet-class>Receive_msg</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Receive_msg</servlet-name>
+		<url-pattern>/Receive_msg</url-pattern>
+	</servlet-mapping>
+</web-app>

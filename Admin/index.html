@@ -1,0 +1,31 @@
+<html>
+
+    <head>
+        <script language="JavaScript" type="text/javaScript">
+            function validate(){
+                if (document.register.email.value != "root"){
+                    alert("Email!");
+                    return false;
+                }
+                if (document.register.passwd.value != "root"){
+                    alert("Password!");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+
+<body>
+    <form name="register" method="post" action="../Menue" onsubmit="return validate()">
+
+        Email :<input type="text" name="email"><br>
+        Password :<input type="password" name="passwd"><br>
+        <input type="submit" value="&#*$(#&">
+
+    </form>
+    <form method="post" action="../index.html">
+    <input type="submit" value="<--Go Back">
+    </form>
+</body>
+
+</html>
